@@ -6,7 +6,7 @@ This is a simplified railway management API built using Node.js, Express, and Se
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Jai0401/irctc-api.git
     cd irctc-api
     ```
 
