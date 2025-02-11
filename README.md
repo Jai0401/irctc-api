@@ -1,6 +1,6 @@
 # IRCTC API (Node.js)
 
-This is a simplified railway management API built for the SDE API Round, using Node.js, Express, and Sequelize.
+This is a simplified railway management API built using Node.js, Express, and Sequelize.
 
 ## Setup
 
