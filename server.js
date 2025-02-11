@@ -1,12 +1,11 @@
-// server.js
 const express = require('express');
 const routes = require('./app/routes');
-const db = require('./app/models'); // Import the initialized Sequelize instance
+const db = require('./app/models');
 const config = require('./config/config');
 
 const app = express();
 
-app.use(express.json()); // Parse JSON request bodies
+app.use(express.json());
 app.use('/api', routes);
 
 const PORT = process.env.PORT || 3000;
