@@ -60,7 +60,6 @@ router.post('/login', validateLoginUser, async (req, res) => {
   }
 });
 
-// Get currently logged-in user
 router.get('/me', authenticateToken, async (req, res) => {
     try {
         const userDetails = {

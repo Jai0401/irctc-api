@@ -1,4 +1,3 @@
-// app/routes/index.js (Main Router)
 const express = require('express');
 const router = express.Router();
 const userRoutes = require('./user.routes');
