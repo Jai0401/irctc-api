@@ -7,7 +7,7 @@ This is a simplified railway management API built using Node.js, Express, and Se
 1.  **Clone the repository:**
     ```bash
     git clone <repository_url>
-    cd irctc-api-node
+    cd irctc-api
     ```
 
 2.  **Install dependencies:**
@@ -16,8 +16,8 @@ This is a simplified railway management API built using Node.js, Express, and Se
     ```
 
 3.  **Configure the database:**
-    *   Create a `.env` file in the root directory and set the environment variables as described above (in the `.env` section).
-    *   Make sure your PostgreSQL or MySQL server is running.
+    *   Create a `.env` file in the root directory and set the environment variables as described in `.env.example` file.
+    *   Make sure your PostgreSQL server is running.
 
 4.  **Run the application:**
     ```bash
