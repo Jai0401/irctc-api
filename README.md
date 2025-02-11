@@ -26,8 +26,6 @@ This is a simplified railway management API built using Node.js, Express, and Se
 
 ## API Endpoints
 
-(Same endpoints as the Python version, but the base URL is `/api`)
-
 | Method | Endpoint                          | Description                                            | Authentication        |
 | ------ | --------------------------------- | ------------------------------------------------------ | --------------------- |
 | POST   | /api/users/register                 | Register a new user                                   | None                  |
@@ -43,7 +41,6 @@ This is a simplified railway management API built using Node.js, Express, and Se
 *   Admin endpoints require: `x-api-key: your-admin-api-key`
 *   User endpoints (except register/login) require: `Authorization: Bearer <your_auth_token>`
 
-**Assumptions and Further Improvements:** (Same as the Python README)
 
 **Concurrency:**
 
